@@ -15,7 +15,7 @@ echo "     source ~/.bash_custom/.bash_main"
 echo ""
 
 echo "Cloning tmux stuff at $PWD."
-git clone https://github.com/gpakosz/.tmux.git
+git clone https://github.com/thiagotei/.tmux.git
 #[ $? -ne 0 ] || die "Error"
 ln -s .tmux/.tmux.conf .tmux.conf
 #[ $? -ne 0 ] || die "Error"
